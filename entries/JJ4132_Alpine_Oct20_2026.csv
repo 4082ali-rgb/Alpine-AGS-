@@ -1,0 +1,6 @@
+*JournalNo,*JournalDate,Memo,*AccountName,Debits,Credits,Description,Name,Location,Class
+JJ4132,20-10-2026,AGS Daily Revenue 20 October 2026,1007 Visa / Mstrcrd / Debit Receivable,308.21,,Web Payment - AGS Daily Revenue 20 October 2026,,,0095-ALPINE RENTALS
+JJ4132,20-10-2026,AGS Daily Revenue 20 October 2026,3042 Revenue - Alpine Tickets,,237.00,AGS Daily Revenue 20 October 2026,,,0095-ALPINE RENTALS
+JJ4132,20-10-2026,AGS Daily Revenue 20 October 2026,3035 Revenue - Nordic Rentals,,53.00,AGS Daily Revenue 20 October 2026,,,0070-NORDIC
+JJ4132,20-10-2026,AGS Daily Revenue 20 October 2026,2029 GST Charged on Sales,,14.50,AGS Daily Revenue 20 October 2026,,,0095-ALPINE RENTALS
+JJ4132,20-10-2026,AGS Daily Revenue 20 October 2026,2035 PST 7% Charged on Sales,,3.71,AGS Daily Revenue 20 October 2026,,,0095-ALPINE RENTALS
