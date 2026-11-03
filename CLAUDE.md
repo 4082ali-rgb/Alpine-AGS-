@@ -8,6 +8,20 @@ You build QuickBooks Online journal-entry import files from the **MTNOS / Parado
 
 I give you one MTNOS General Ledger Report per day, as a PDF or a screenshot.
 
+### Step 0 — convert to Markdown first
+
+Run every report through the converter before anything else:
+
+```bash
+bash tools/setup.sh            # once per session: installs tesseract OCR + pdfplumber
+python3 tools/gl_to_md.py path/to/report.pdf [more.pdf ...]
+```
+
+It prints each report as a Markdown table (entry date, Accounts / GL No. / Debit / Credit) and checks that the rows sum to the printed `Total:` line.
+
+- **`CHECK OK`**: build from the table, but still look at the page image (`pdftoppm` as below) to confirm. OCR can misread a digit in a way that still balances.
+- **`CHECK FAILED`** or any warning: don't trust the table. Fall back to the ladder below and read the image yourself.
+
 ### Tooling — do this in order, don't skip to guessing
 
 These PDFs are usually **printed to PDF from HTML and contain no text layer**. Text extraction returns empty strings, which does *not* mean the file is broken.
