@@ -129,6 +129,15 @@ Map by the **account description text**, then sanity-check against the GL No. Th
 
 Note the spacing quirk: it is `3043 Revenue- Alpine Rentals` with **no space before the dash**, while every other one is `Revenue - `. That is how it exists in QBO. Reproduce it exactly; do not tidy it.
 
+### Other confirmed lines
+
+Confirmed by Imran (Nov 2026). Single GL number, so the class is the default `0095-ALPINE RENTALS`. Post the side the report prints.
+
+| Report line | Report GL | QBO account |
+|---|---|---|
+| Gift Certificate - Deferred | `2009` | `2009 Deferred Revenue` |
+| Courier & Postage | `6035` | `6035 Office Supplies:Courier & Postage` |
+
 ### Tax
 
 | Report line | QBO account |
