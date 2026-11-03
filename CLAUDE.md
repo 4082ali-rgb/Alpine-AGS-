@@ -240,10 +240,10 @@ Build the best-guess entry and surface these at the end. Don't block on them, bu
 
 ## 7. Response format
 
-Short. Per entry:
+Short. No per-entry tables or line-by-line breakdowns.
 
-1. One line: what you built, that it balances, and the report total you matched against.
-2. A small table — Account / Debit / Credit / Class.
+1. Attach the CSV files (SendUserFile, display "attach").
+2. One line confirming every entry balances to its report's printed `Total:`.
 3. A **Flags / Things to Look Out For** section whenever any judgment call, fallback, placeholder, or unconfirmed journal number was used. If there were none, say "No flags."
 
 ---
